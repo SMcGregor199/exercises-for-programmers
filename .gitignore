@@ -1,0 +1,103 @@
+############################################
+# OS junk
+############################################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+############################################
+# Editor / IDE
+############################################
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.DS_Store
+
+############################################
+# Logs
+############################################
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+############################################
+# Node / JS / TS
+############################################
+node_modules/
+**/node_modules/
+
+# Common build outputs
+dist/
+**/dist/
+build/
+**/build/
+out/
+**/out/
+coverage/
+**/coverage/
+
+# Vite / Next / others (harmless if unused)
+.vite/
+**/.vite/
+.next/
+**/.next/
+.nuxt/
+**/.nuxt/
+.svelte-kit/
+**/.svelte-kit/
+.cache/
+**/.cache/
+
+# Env files (don’t commit secrets)
+.env
+.env.*
+!.env.example
+
+############################################
+# TypeScript (optional)
+############################################
+*.tsbuildinfo
+
+############################################
+# Go
+############################################
+# Compiled binaries (covers most typical names)
+*.exe
+*.dll
+*.so
+*.dylib
+*.out
+*.test
+
+# Common Go output folders (if you use them)
+bin/
+**/bin/
+tmp/
+**/tmp/
+
+# Go workspace file (if used)
+go.work
+go.work.sum
+
+############################################
+# PHP
+############################################
+# Composer (if you ever use it)
+vendor/
+**/vendor/
+
+# PHPUnit / caches
+.phpunit.result.cache
+
+############################################
+# General
+############################################
+*.tmp
+*.temp
